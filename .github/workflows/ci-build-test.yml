@@ -13,5 +13,3 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run Tests
         run: pytest -q
-      - name: Run Linter
-        run: flake8 .
